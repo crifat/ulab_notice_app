@@ -4,7 +4,9 @@ gem 'devise'
 
 gem 'pry'
 
-gem 'pg'
+group :development do
+  gem 'pg'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
