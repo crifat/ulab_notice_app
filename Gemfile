@@ -4,7 +4,7 @@ gem 'devise'
 
 gem 'pry'
 
-group :development do
+group :production do
   gem 'pg'
 end
 
