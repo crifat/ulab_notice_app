@@ -1,0 +1,35 @@
+<%= form_for(@notice) do |f| %>
+  <% if @notice.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@notice.errors.count, "error") %> prohibited this notice from being saved:</h2>
+
+      <ul>
+      <% @notice.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="group">
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <%= f.label :titile %><br>
+    <%= f.text_field :titile %>
+  </div>
+  <div class="group">
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <%= f.label :description %><br>
+    <%= f.text_field :description %>
+  </div>
+  <div class="group">
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <%= f.label :user_id %><br>
+    <%= f.text_field :user_id, value: current_user.id, readonly: true %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
