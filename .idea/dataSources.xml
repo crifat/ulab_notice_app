@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2888966799">
+    <data-source source="LOCAL" name="Rails ulab_notice_app: production" uuid="14663387-c898-4c6b-adca-c31652cf188f">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:ulab_notice_app_production</jdbc-url>
+      <user-name>ulab_notice_app</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfffdfe6dfebdfe8dff5dfe4dfe5dffedfe3dfe9dfefdff5dfebdffadffadff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
