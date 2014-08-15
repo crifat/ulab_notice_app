@@ -14,7 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ulab_notice_app@db_create__ulab_notice_app.coverage" NAME="db:create: ulab_notice_app Coverage Results" MODIFIED="1407523226406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ulab_notice_app" />
     <SUITE FILE_PATH="coverage/ulab_notice_app@db_migrate__ulab_notice_app.coverage" NAME="db:migrate: ulab_notice_app Coverage Results" MODIFIED="1407523321851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ulab_notice_app" />
-    <SUITE FILE_PATH="coverage/ulab_notice_app@Production__ulab_notice_app.coverage" NAME="Production: ulab_notice_app Coverage Results" MODIFIED="1408141591224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ulab_notice_app" />
+    <SUITE FILE_PATH="coverage/ulab_notice_app@Production__ulab_notice_app.coverage" NAME="Production: ulab_notice_app Coverage Results" MODIFIED="1408141837249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ulab_notice_app" />
     <SUITE FILE_PATH="coverage/ulab_notice_app@Development__ulab_notice_app.coverage" NAME="Development: ulab_notice_app Coverage Results" MODIFIED="1407946176295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ulab_notice_app" />
     <SUITE FILE_PATH="coverage/ulab_notice_app@Rails_console__ulab_notice_app.coverage" NAME="Rails console: ulab_notice_app Coverage Results" MODIFIED="1407525411118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ulab_notice_app" />
   </component>
@@ -74,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/config/secrets.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.73770493" vertical-offset="0" max-vertical-offset="427">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="48" />
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -1127,7 +1127,7 @@
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73770493" vertical-offset="0" max-vertical-offset="427">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="48" />
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
