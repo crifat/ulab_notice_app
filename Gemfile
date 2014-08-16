@@ -4,6 +4,8 @@ gem 'devise'
 
 gem 'pry'
 
+gem 'thin'
+
 group :production do
   gem 'pg'
 end
