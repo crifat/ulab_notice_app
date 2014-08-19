@@ -13,16 +13,14 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/ulab_notice_app_development</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>df9bdf9bdf9bdf98df9bdf99</user-password>
+      <user-name>irfanahmed</user-name>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails ulab_notice_app: test" uuid="30264692-f3e4-44e2-83a3-65c1a7ce7e8f">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/ulab_notice_app_test</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>df9bdf9bdf9bdf98df9bdf99</user-password>
+      <user-name>irfanahmed</user-name>
       <libraries />
     </data-source>
   </component>
