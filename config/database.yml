@@ -13,9 +13,9 @@ default: &default
   adapter: postgresql
   encoding: unicode
   #role: irfanahmed
-  username: chayon
+  username: irfanahmed
   host: localhost
-  password: linkon
+  password:
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
@@ -50,13 +50,6 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-#production:
- # <<: *default
-  #database: ulab_notice_app_production
 production:
-adapter: postgresql
-encoding: unicode
-pool: 5
-database: ulab_notice_app_production
-username: ulab_notice_app
-password: <%= ENV['ULAB_NOTICE_APP_DATABASE_PASSWORD'] %>
+  <<: *default
+  database: ulab_notice_app_production

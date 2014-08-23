@@ -1,3 +1,5 @@
+<%= stylesheet_link_tag "mystyle.css" %>
+
 <%= form_for(@notice) do |f| %>
   <% if @notice.errors.any? %>
     <div id="error_explanation">
@@ -11,25 +13,15 @@
     </div>
   <% end %>
 
-  <div class="group">
-    <span class="highlight"></span>
-    <span class="bar"></span>
-    <%= f.label :titile %><br>
-    <%= f.text_field :titile %>
-  </div>
-  <div class="group">
-    <span class="highlight"></span>
-    <span class="bar"></span>
-    <%= f.label :description %><br>
-    <%= f.text_field :description %>
-  </div>
-  <div class="group">
-    <span class="highlight"></span>
-    <span class="bar"></span>
-    <%= f.label :user_id %><br>
-    <%= f.text_field :user_id, value: current_user.id, readonly: true %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <h1>New Notice</h1>
+
+    <%= f.text_field :titile, class: "login-input", placeholder: "Title", require: true  %>
+
+    <%= f.text_field :description, class: "login-input", placeholder: "Description", require: true %>
+
+    <%= f.text_field :user_id, value: current_user.id, readonly: true, class: "login-input" %>
+
+    <div><%= f.submit "Create Notice", class:"login-submit" %></div>
+
+    <p class="login-help"><a href="/notices">Back</a></p>
 <% end %>
