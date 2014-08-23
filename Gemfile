@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.1.2'
 
-gem 'devise'
+gem 'devise', "3.2.3"
 
 gem 'pry'
 
