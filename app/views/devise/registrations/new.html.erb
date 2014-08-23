@@ -6,19 +6,19 @@
     <h1>Sign Up</h1>
 
     <div>
-      <%= f.text_field :name, autofocus: true, class: "login-input", placeholder: "Name" %></div>
+      <%= f.text_field :name, autofocus: true, class: "login-input", placeholder: "Name", required: true %></div>
 
     <div>
-      <%= f.text_field :ulab_id, class: "login-input", placeholder: "Ulab ID" %></div>
+      <%= f.text_field :ulab_id, class: "login-input", placeholder: "Ulab ID", required: true %></div>
 
     <div>
-      <%= f.email_field :email, class: "login-input", placeholder: "Email" %></div>
+      <%= f.email_field :email, class: "login-input", placeholder: "Email", required: true %></div>
 
     <div>
-      <%= f.password_field :password, autocomplete: "off", class: "login-input", placeholder: "Password" %></div>
+      <%= f.password_field :password, autocomplete: "off", class: "login-input", placeholder: "Password", required: true %></div>
 
     <div>
-      <%= f.password_field :password_confirmation, autocomplete: "off", class: "login-input", placeholder: "Confirm Password" %></div>
+      <%= f.password_field :password_confirmation, autocomplete: "off", class: "login-input", placeholder: "Confirm Password", required: true %></div>
 
     <div><%= f.submit "Sign up", class:"login-submit" %></div>
 

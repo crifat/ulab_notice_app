@@ -6,10 +6,10 @@
     <h1>Smartphone Development Course Notice Board</h1>
 
     <div>
-  <%= f.email_field :email, autofocus: true, class:"login-input", placeholder: "Email" %></div>
+  <%= f.email_field :email, autofocus: true, class:"login-input", placeholder: "Email", required: true %></div>
 
   <div>
-    <%= f.password_field :password, autocomplete: "off", class: "login-input", placeholder: "Password" %></div>
+    <%= f.password_field :password, autocomplete: "off", class: "login-input", placeholder: "Password", required: true %></div>
 
   <% if devise_mapping.rememberable? -%>
     <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>

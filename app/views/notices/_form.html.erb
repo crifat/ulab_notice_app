@@ -15,11 +15,11 @@
 
     <h1>New Notice</h1>
 
-    <%= f.text_field :titile, class: "login-input", placeholder: "Title", require: true  %>
+    <%= f.text_field :titile, class: "login-input", placeholder: "Title", required: true  %>
 
-    <%= f.text_field :description, class: "login-input", placeholder: "Description", require: true %>
+    <%= f.text_field :description, class: "login-input", placeholder: "Description", required: true %>
 
-    <%= f.text_field :user_id, value: current_user.id, readonly: true, class: "login-input" %>
+    <%= f.text_field :user_id, value: current_user.id, readonly: true, class: "login-input", required: true %>
 
     <div><%= f.submit "Create Notice", class:"login-submit" %></div>
 
