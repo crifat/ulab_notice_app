@@ -19,7 +19,7 @@
 
     <%= f.text_field :description, class: "login-input", placeholder: "Description", required: true %>
 
-    <%= f.text_field :user_id, value: current_user.id, readonly: true, class: "login-input", required: true %>
+    <%= f.hidden_field :user_id, value: current_user.id %>
 
     <div><%= f.submit "Create Notice", class:"login-submit" %></div>
 
