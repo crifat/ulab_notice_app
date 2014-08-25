@@ -1,19 +1,21 @@
+<style>
+   
+
+</style>
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Titile:</strong>
+<p id="title_notice">
   <%= @notice.titile %>
 </p>
-
-<p>
-  <strong>Description:</strong>
+<br>
+<p id="title_des">
+  <strong>Description:</strong><br>
   <%= @notice.description %>
 </p>
-
-<p>
+<p id="title_name">
   <strong>Name:</strong>
   <%= @notice.user.name %>
 </p>
-
-<%= link_to 'Edit', edit_notice_path(@notice) %> |
-<%= link_to 'Back', notices_path %>
+<%= button_to "Edit", edit_notice_path(@notice), :method => "get" %>
+<br>
+<%= button_to "Back", notices_path, :method => "get" %>

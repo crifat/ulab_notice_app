@@ -13,7 +13,7 @@
     </div>
   <% end %>
 
-    <h1>New Notice</h1>
+    <h1>Create/Update Notice</h1>
 
     <%= f.text_field :titile, class: "login-input", placeholder: "Title", required: true  %>
 
@@ -21,7 +21,7 @@
 
     <%= f.hidden_field :user_id, value: current_user.id %>
 
-    <div><%= f.submit "Create Notice", class:"login-submit" %></div>
+    <div><%= f.submit "Create/Update Notice", class:"login-submit" %></div>
 
     <p class="login-help"><a href="/notices">Back</a></p>
 <% end %>
