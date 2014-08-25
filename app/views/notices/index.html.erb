@@ -1,4 +1,10 @@
-<h1>All Notice</h1>
+
+<%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+
+<br><br>
+
+
+
 
 <style>
     body {
@@ -28,6 +34,7 @@
         vertical-align: top;
         padding: 10px;
         text-align: right;
+
     }
 
     table th:nth-child(1),
@@ -35,6 +42,7 @@
         text-align: left;
         padding-left: 0;
         font-weight: bold;
+        color: #0000ff;
     }
     /* responsive table */
 @media screen and (max-width: 480px) {
@@ -47,19 +55,43 @@
     table td {
         border: none;
         margin-bottom: 6px;
-        color: #444;
+       
     }
+
+    .td_table{
+
+        color: #0000ff;
+    }
+
+    }
+
+    .table_style{
+
+        background-color: #ffffff;
+        margin: 3px;
+        
+    }
+
+    #h11
+    {
+        font-size: 2em;
+        margin: 2px;
+    }
+
+    
+    
+
 </style>
+<h1 id="h11">All Notice</h1>
 
-<%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
-<br><br>
+<br>
 
-<table>
+<table class="table_style">
 
   <tbody>
     <% @notices.each do |notice| %>
       <tr>
-        <td data-title="Title"><%= link_to notice.titile, notice %></td>
+        <td id="morar_link" class="td_table" data-title="Title"><%= link_to notice.titile, notice %></td>
         <td> Posted by </td>
         <td data-title="Name"><%= notice.user.name %></td>
         <% t = notice.created_at + 6.hours %>
@@ -73,5 +105,3 @@
   </tbody>
 </table>
 <br>
-
-<%= link_to 'New Notice', new_notice_path %>
